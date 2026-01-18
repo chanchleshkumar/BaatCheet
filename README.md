@@ -1,81 +1,58 @@
 
-# Talk-A-Tive
+# BaatCheet – Real-Time Chat Application
 
-Talk-a-tive is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
-## Tech Stack
+BaatCheet is a full-stack real-time chat application built using the MERN stack and Socket.IO.  
+It supports one-to-one and group chats with real-time messaging and typing indicators.
 
-**Client:** React JS
+---
 
-**Server:** Node JS, Express JS
+## 🚀 Tech Stack
 
-**Database:** Mongo DB
-  
-## Demo
+**Frontend**
+- React.js
+- Chakra UI
 
-[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
+**Backend**
+- Node.js
+- Express.js
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-## Run Locally
+**Database**
+- MongoDB
 
-Clone the project
+**Real-Time**
+- Socket.IO
 
+**Authentication**
+- JWT (JSON Web Token)
+- bcrypt.js
+
+---
+
+## ✨ Features
+
+- User authentication (Login & Signup)
+- One-to-one chat
+- Group chat
+- Real-time messaging using Socket.IO
+- Typing indicators
+- User search
+- Notifications
+- Add / remove users from group
+- View user profile
+
+---
+
+## 🏗️ Architecture
+
+Client (React)  
+→ REST APIs (Express)  
+→ MongoDB (via Mongoose)  
+→ Real-time updates using Socket.IO  
+
+---
+
+## ⚙️ Run Locally
+
+### Clone the repository
 ```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
-```
-
-Go to the project directory
-
-```bash
-  cd mern-chat-app
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-```bash
-  cd frontend/
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-Start the Client
-
-```bash
-  //open now terminal
-  cd frontend
-  npm start
-```
-
-  
-# Features
-
-### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
-### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
-### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
-### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
-### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
-### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-## Made By
-
-- [@Piyush-eon](https://github.com/piyush-eon)
-
-  
+git clone https://github.com/chanchleshkumar/BaatCheet.git
